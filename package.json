@@ -1,5 +1,5 @@
 {
-    "name": "watermarker",
+    "name": "boxplay-watermarker",
     "version": "1.0.0",
     "description": "",
     "main": "watermark.js",
