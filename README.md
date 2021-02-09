@@ -1,4 +1,5 @@
 ## property && configurations
+
 ```
 watermark_id: 'wm_div_id',          //水印总体的id
 watermark_prefix: 'mask_div_id',    //小水印的id前缀
@@ -22,23 +23,28 @@ watermark_parent_node:null     //水印插件挂载的父元素element,不输入
 ```
 
 ## use
+
 ```
 
-step1：npm获取水印组件包： 
-````
-npm install watermark-js
-````
-step2：
-````
-import watermark from 'watermark-js'
+step1：npm获取水印组件包：
+```
+
+npm install boxplay-watermarker
+
+```
+step2：导入
+```
+
+import watermark from 'boxplay-watermarker'
 or
-var watermarkDom = require("watermark-js")
+var watermarkDom = require("boxplay-watermarker")
+
 ````
 ```
 
 #### use dom
 ```
- watermark.load({ 
+ watermark.load({
     watermark_txt:"测试水印，saucxs，测试水印，songEagle，工号等",  //水印的内容
     watermark_color:'#5579ee',            //水印字体颜色
     watermark_fontsize:'24px',          //水印字体大小
@@ -48,3 +54,4 @@ var watermarkDom = require("watermark-js")
     watermark_height:200,               //水印长度
 });
 ```
+````
